@@ -1,5 +1,5 @@
 {
-    "name": "horde/compress",
+    "name": "egroupware/compress",
     "description": "Compression library",
     "type": "library",
     "homepage": "https://www.horde.org/libraries/Horde_Compress",
@@ -26,7 +26,7 @@
             "role": "lead"
         }
     ],
-    "version": "2.2.2",
+    "version": "2.2.3",
     "time": "2020-03-11",
     "repositories": [
         {
