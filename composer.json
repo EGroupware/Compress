@@ -29,18 +29,23 @@
     "version": "2.3.0",
     "time": "2020-03-11",
     "require": {
-        "php": "^5.3 || ^7 || ^8",
-        "egroupware/exception": "^2",
-        "egroupware/mime": "^2.5",
-        "egroupware/translation": "^2.2",
-        "egroupware/util": "^2"
+        "php": "^7 || ^8",
+        "pear-pear.horde.org/horde_exception": "^2",
+        "pear-pear.horde.org/horde_mime": "^2.5",
+        "pear-pear.horde.org/horde_translation": "^2.2",
+        "pear-pear.horde.org/horde_util": "^2"
     },
     "suggest": {
-        "egroupware/icalendar": "^2",
-        "egroupware/mail": "^2.5",
-        "egroupware/mapi": "^1",
-        "egroupware/stream-filter": "^2",
+        "pear-pear.horde.org/horde_icalendar": "^2",
+        "pear-pear.horde.org/horde_mail": "^2.5",
+        "pear-pear.horde.org/horde_mapi": "^1",
+        "pear-pear.horde.org/horde_stream_filter": "^2",
+        "pear-pear.horde.org/horde_test": "^2.1",
         "ext-zlib": "*"
+    },
+    "replace": {
+        "pear-pear.horde.org/horde_compress": "2.*",
+        "pear-horde/horde_compress": "2.*"
     },
     "autoload": {
         "psr-0": {
